@@ -15,4 +15,9 @@ git branch -M main
 
 git remote add origin git@github.com:niihelium/git_guide_test.git
 
-git push -u origin main
+git push -u origin main  --- -u - --set-upstream  используется первый раз
+
+git push
+
+git branch new_branch_name  # Create a new branch
+git checkout new_branch_name  # Switch to the new branch
