@@ -31,4 +31,4 @@ git checkout -b new_feature  # Create and switch to a new branch
 
  git push
 
- git rebase -i 
+ git rebase -i HEAD~2
