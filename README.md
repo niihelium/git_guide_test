@@ -11,7 +11,7 @@ git commit  --- открывается vscode
 
 git commit -m "Initial commit"
 
-git branch -M master --- будущий конфликт
+git branch -M master
 
 git remote add origin git@github.com:niihelium/git_guide_test.git
 
@@ -24,11 +24,13 @@ git checkout new_feature  # Switch to the new branch
 
 git checkout -b new_feature  # Create and switch to a new branch
 
- git push -u origin new_feature
+git push -u origin new_feature
 
- git add -A
- git commit -m "Update new feature"
+git add -A
+git commit -m "Update new feature"
 
- git push
+git push
 
- git rebase -i HEAD~2
+git rebase -i HEAD~2
+
+git rebase main
