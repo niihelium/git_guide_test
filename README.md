@@ -1,7 +1,7 @@
 git init
 
 git add .
-git add -A
+git add -A  --- Предпочтительно
 
 git commit  --- Открывается редактор, редактор vim, cделаем VSCode
 
