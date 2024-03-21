@@ -34,3 +34,5 @@ git push
 git rebase -i HEAD~2
 
 git rebase main
+
+git rm -r --cached .
