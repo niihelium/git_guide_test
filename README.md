@@ -11,7 +11,7 @@ git commit  --- открывается vscode
 
 git commit -m "Initial commit"
 
-git branch -M main
+git branch -M master --- будущий конфликт
 
 git remote add origin git@github.com:niihelium/git_guide_test.git
 
